@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #F9FAF8;
+}
+
+.team {
+    display: flex;
+    max-width: 500px;
+    max-height: auto;
+    align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-style: outset;
+    border-width: 2px;
+}
+
+.section-1 {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    background-color: #1F2355ff;
+    padding: 16px 150px 80px 150px;
+    min-width: 800px;
+}
+
+.sub-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.sub-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-1 a, .sub-1 img, .sub-2 p, .sub-2 img {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    height: 75px;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    max-width: 500px;
+    min-width: 300px;
+
+}
+
+button {
+    max-width: fit-content;
+    border-radius: 7px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #8443BCff;
+    color: #F9FAF8;
+}
+
+.motto {
+    font-style: italic;
+    font-weight: 300;
+    font-size: smaller;
+    color: #E5E7EB;
+}
+
+
+
+
