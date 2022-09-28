@@ -46,6 +46,15 @@ h1 {
     padding-top: 80px;
 }
 
+.section-4 {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 80px 150px 80px 150px;
+    min-width: 800px;
+}
+
 .sub-1 {
     display: flex;
     justify-content: space-between;
@@ -89,6 +98,11 @@ button {
     border: none;
     background-color: #8443BCff;
     color: #F9FAF8;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #8443BCff;
 }
 
 .motto {
@@ -168,4 +182,44 @@ button {
     justify-content: flex-end;
     margin-bottom: 10px;
     font-size: smaller;
+}
+
+.container {
+    display: flex;
+    flex: 0;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 30px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    height: fit-content;
+}
+
+.sign-up:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+
+
+.line-1 {
+    font-size: 24px;
+}
+
+.line-2 {
+    color: #d9e2ee;
+}
+
+.links a:hover {
+    color: violet;
 }
