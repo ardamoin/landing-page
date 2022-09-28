@@ -27,6 +27,15 @@ h1 {
     min-width: 800px;
 }
 
+.section-2 {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 16px 150px 80px 150px;
+    min-width: 800px;
+}
+
 .sub-1 {
     display: flex;
     justify-content: space-between;
@@ -79,6 +88,51 @@ button {
     color: #E5E7EB;
 }
 
+.random-info {
+    display: flex;
+    font-size: 36px;
+    font-weight: 500;
+    color: #1F2355ff;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.heroes {
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.heroes img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 5px solid rgb(201, 200, 215);
+}
+
+.heroes div {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroes div div {
+    padding: 8px;
+}
+
+.subtext {
+    color: #475569;
+    font-size: smaller;
+}
+
+.hero {
+    font-weight: 500;
+    color: darkblue;
+}
 
 
 
