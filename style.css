@@ -51,8 +51,19 @@ h1 {
     flex: 0 1 auto;
     flex-direction: column;
     background-color: #F9FAF8;
-    padding: 80px 150px 80px 150px;
+    padding: 100px 150px;
     min-width: 800px;
+}
+
+.footer {
+    display: flex;
+    flex: 0 1 auto;
+    background-color: #1F2355ff;
+    padding: 25px 150px;
+    min-width: 800px;
+    color: #E5E7EB;
+    justify-content: center;
+    font-size: smaller;
 }
 
 .sub-1 {
