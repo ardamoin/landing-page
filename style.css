@@ -36,6 +36,16 @@ h1 {
     min-width: 800px;
 }
 
+.section-3 {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 16px 150px 80px 150px;
+    min-width: 800px;
+    padding-top: 80px;
+}
+
 .sub-1 {
     display: flex;
     justify-content: space-between;
@@ -134,5 +144,28 @@ button {
     color: darkblue;
 }
 
+.quote { 
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    margin-bottom: 20px;
+}
 
+.quote-home, .quote-deep {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+    font-size: smaller;
+}
 
+.quote-noir {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    font-size: smaller;
+}
